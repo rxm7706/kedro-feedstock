@@ -20,7 +20,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5,<3.9
+    - python >=3.6,<3.9
   run:
    - anyconfig <1.0,>=0.9.7
    - cachetools <5.0,>=4.1.0
