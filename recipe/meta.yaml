@@ -1,5 +1,5 @@
 {% set name = "kedro" %}
-{% set version = "0.16.0" %}
+{% set version = "0.16.1" %}
 
 
 package:
@@ -8,39 +8,42 @@ package:
 
 source:
   url: https://github.com/quantumblacklabs/kedro/archive/{{ version }}.tar.gz
-  sha256: 16a05f51b54bba45f6a876712528e7512bcbf9cf170f8f70d5ebc9d768b05170
+  sha256: 61a66b6ca3b28d2c7cc870a86371d23bc0b14a21cece507ee21e6f87e2cb4b66
 
 build:
   number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
-    - kedro = kedro.cli:main
+    - kedro = kedro.framework.cli:main
 
 requirements:
   host:
     - pip
     - python >=3.6,<3.9
   run:
-   - anyconfig <1.0,>=0.9.7
-   - cachetools <5.0,>=4.1.0
-   - click <8.0
-   - cookiecutter <1.7.0,>=1.6.0
-   - fsspec <0.7.0,>=0.5.1
-   - jmespath <1.0,>=0.9.5
-   - jupyter_client <6.0,>=5.1.0
-   - pip-tools <6.0,>=5.0.0
-   - pluggy <1.0.0,>=0.13.0
-   - python >=3.6,<3.9
-   - python-json-logger <1.0,>=0.1.9
-   - pyyaml <6.0,>=4.2
-   - toposort <2.0,>=1.5
+    - anyconfig <1.0,>=0.9.7
+    - cachetools <5.0,>=4.1.0
+    - click <8.0
+    - cookiecutter <1.7.0,>=1.6.0
+    - fsspec <0.7.0,>=0.5.1
+    - jmespath <1.0,>=0.9.5
+    - jupyter_client <6.0,>=5.1.0
+    - pip-tools <6.0,>=5.0.0
+    - pluggy <1.0.0,>=0.13.0
+    - python >=3.6,<3.9
+    - python-json-logger <1.0,>=0.1.9
+    - pyyaml <6.0,>=4.2
+    - toposort <2.0,>=1.5
 
 test:
   imports:
     - kedro
   commands:
     - kedro --help
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/quantumblacklabs/kedro
