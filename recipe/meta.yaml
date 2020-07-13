@@ -1,5 +1,5 @@
 {% set name = "kedro" %}
-{% set version = "0.16.2" %}
+{% set version = "0.16.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/quantumblacklabs/kedro/archive/{{ version }}.tar.gz
-  sha256: 7de9792d20971b086ebd3000a979e89cb299a37bbaf4b91c56a1ca83e648ed43
+  sha256: 9eb66fef0606f1e1482499666b844b4d6551f8d44833b2f57ee198ea30c524d1
 
 build:
   number: 0
@@ -22,19 +22,20 @@ requirements:
     - pip
     - python >=3.6,<3.9
   run:
-    - anyconfig <1.0,>=0.9.7
-    - cachetools <5.0,>=4.1.0
+    - anyconfig >=0.9.7,<0.10
+    - cachetools >=4.1,<5
     - click <8.0
-    - cookiecutter <1.7.0,>=1.6.0
-    - fsspec <0.7.0,>=0.5.1
-    - jmespath <1.0,>=0.9.5
-    - jupyter_client <6.0,>=5.1.0
-    - pip-tools <6.0,>=5.0.0
-    - pluggy <1.0.0,>=0.13.0
+    - cookiecutter >=1.6.0,<1.7.0
+    - fsspec >=0.5.1,<0.7.0
+    - jmespath >=0.9.5,<1.0
+    - jupyter_client >=5.1,<6.0
+    - pip-tools >=5.0,<6.0
+    - pluggy >=0.13.0,<0.14.0
     - python >=3.6,<3.9
-    - python-json-logger <1.0,>=0.1.9
-    - pyyaml <6.0,>=4.2
-    - toposort <2.0,>=1.5
+    - python-json-logger >=0.1.9,<0.2.0
+    - pyyaml >=4.2,<6.0
+    - setuptools >=38.0,<47.0
+    - toposort >=1.5,<2.0
 
 test:
   imports:
