@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/quantumblacklabs/kedro/archive/{{ version }}.tar.gz
-  sha256: 9eb66fef0606f1e1482499666b844b4d6551f8d44833b2f57ee198ea30c524d1
+  sha256: e405b009ac5d9550d53b0bb2012b3cd4a7ba9cd83ec1d31d1b0760eae9237133
 
 build:
   number: 0
