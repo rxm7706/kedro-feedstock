@@ -5,9 +5,13 @@ Home: https://github.com/quantumblacklabs/kedro
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kedro-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python library that implements software engineering best-practice for data and ML pipelines.
+
+Development: https://github.com/quantumblacklabs/kedro
+
+Documentation: https://kedro.readthedocs.io/
 
 Kedro is a development workflow framework that implements
 software engineering best-practice for data pipelines
