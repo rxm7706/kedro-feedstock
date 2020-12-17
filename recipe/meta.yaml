@@ -36,6 +36,7 @@ requirements:
     - pyyaml >=4.2,<6.0
     - setuptools >=38.0,<47.0
     - toposort >=1.5,<2.0
+    - gitpython
 
 test:
   imports:
