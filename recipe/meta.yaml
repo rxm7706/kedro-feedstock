@@ -23,11 +23,11 @@ requirements:
     - python >=3.6,<3.9
   run:
     - anyconfig >=0.9.7,<0.10.0
-    - cachetools >=4.1,<4.3
+    - cachetools >=4.1,<5
     - click <8.0
     - cookiecutter >=1.7.0,<1.8.0
     - fsspec >=0.5.1,<0.9
-    - gitpython ~=3.0
+    - gitpython >=3.0,<4
     - jmespath >=0.9.5,<1.0
     - jupyter_client >=5.1,<7.0
     - pip-tools >=5.0,<6.0
@@ -38,7 +38,6 @@ requirements:
     - setuptools >=38.0
     - toml >=0.10,<0.11
     - toposort >=1.5,<1.6
-    - gitpython
     - git
 
 test:
