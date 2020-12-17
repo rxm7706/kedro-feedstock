@@ -37,6 +37,7 @@ requirements:
     - setuptools >=38.0,<47.0
     - toposort >=1.5,<2.0
     - gitpython
+    - git
 
 test:
   imports:
