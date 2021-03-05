@@ -22,10 +22,11 @@ requirements:
     - pip
     - python >=3.6,<3.9
   run:
-    - anyconfig >=0.9.7,<0.10.0
+    - anyconfig >=0.10.0,<0.11.0
     - cachetools >=4.1,<5
     - click <8.0
     - cookiecutter >=1.7.0,<1.8.0
+    - dynaconf >=3.1.2,<3.2.0
     - fsspec >=0.5.1,<0.9
     - gitpython >=3.0,<4
     - jmespath >=0.9.5,<1.0
