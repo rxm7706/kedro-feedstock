@@ -1,5 +1,5 @@
 {% set name = "kedro" %}
-{% set version = "0.17.3" %}
+{% set version = "0.17.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/quantumblacklabs/kedro/archive/{{ version }}.tar.gz
-  sha256: 61b291b5d7cbfba84824cf3331a0478fc3cc5b1d844a4df2c78bcb4630a4604a
+  sha256: 2470627a75fd7684b5171f251b05e785581244f4f4be515ac0e51534cf784ac6
 
 build:
   number: 0
@@ -34,7 +34,7 @@ requirements:
     - pip-tools >=5.0,<6.0
     - pluggy >=0.13.0,<0.14.0
     - python >=3.6,<3.9
-    - python-json-logger >=0.1.9,<0.2.0
+    - python-json-logger >=2.0.0,<3.0.0
     - pyyaml >=4.2,<6.0
     - setuptools >=38.0
     - toml >=0.10,<0.11
