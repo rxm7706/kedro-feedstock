@@ -1,5 +1,5 @@
 {% set name = "kedro" %}
-{% set version = "0.17.7" %}
+{% set version = "0.18.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/quantumblacklabs/kedro/archive/{{ version }}.tar.gz
-  sha256: 1592a8587ef306fec94d84dd73b20d68ef71375299cfbd8c312ffd1d30510c29
+  sha256: 6cfc302dd48aa4ddc091e37f886b493afa87a25b07e6e0919a8f71351eb6cd06
 
 build:
   number: 0
