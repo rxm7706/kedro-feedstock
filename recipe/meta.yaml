@@ -23,6 +23,7 @@ requirements:
     - python >=3.7,<3.11
   run:
     - anyconfig >=0.10.0,<0.11.0
+    - attrs >=21.3,<22
     - cachetools >=4.1,<5
     - click <9.0
     - cookiecutter >=1.7.0,<1.8.0
