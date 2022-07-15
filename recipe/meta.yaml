@@ -61,10 +61,7 @@ about:
   license_file: LICENSE.md
   doc_url: https://kedro.readthedocs.io/
   dev_url: https://github.com/quantumblacklabs/kedro
-  description: |
-    Kedro is a development workflow framework that implements
-    software engineering best-practice for data pipelines
-    with an eye towards productionising machine learning models.
+  description: A Python framework for creating reproducible, maintainable and modular data science code.
 
 extra:
   recipe-maintainers:
@@ -73,3 +70,7 @@ extra:
     - idanov
     - MerelTheisenQB
     - AntonyMilneQB
+    - AhdraMeraliQB
+    - jmholzer
+    - noklam
+    - SajidAlamQB
