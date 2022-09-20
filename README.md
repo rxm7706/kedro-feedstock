@@ -13,10 +13,7 @@ Development: https://github.com/quantumblacklabs/kedro
 
 Documentation: https://kedro.readthedocs.io/
 
-Kedro is a development workflow framework that implements
-software engineering best-practice for data pipelines
-with an eye towards productionising machine learning models.
-
+A Python framework for creating reproducible, maintainable and modular data science code.
 
 Current build status
 ====================
@@ -152,9 +149,14 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@AhdraMeraliQB](https://github.com/AhdraMeraliQB/)
 * [@AntonyMilneQB](https://github.com/AntonyMilneQB/)
 * [@MerelTheisenQB](https://github.com/MerelTheisenQB/)
+* [@NeroOkwa](https://github.com/NeroOkwa/)
+* [@SajidAlamQB](https://github.com/SajidAlamQB/)
 * [@idanov](https://github.com/idanov/)
+* [@jmholzer](https://github.com/jmholzer/)
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
+* [@noklam](https://github.com/noklam/)
 * [@yetudada](https://github.com/yetudada/)
 
