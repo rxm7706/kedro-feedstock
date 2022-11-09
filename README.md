@@ -1,7 +1,7 @@
 About kedro
 ===========
 
-Home: https://github.com/kedro-org/kedro
+Home: https://github.com/quantumblacklabs/kedro
 
 Package license: Apache-2.0
 
@@ -12,8 +12,6 @@ Summary: A Python library that implements software engineering best-practice for
 Development: https://github.com/quantumblacklabs/kedro
 
 Documentation: https://kedro.readthedocs.io/
-
-Website: https://kedro.org
 
 A Python framework for creating reproducible, maintainable and modular data science code.
 
@@ -153,12 +151,12 @@ Feedstock Maintainers
 
 * [@AhdraMeraliQB](https://github.com/AhdraMeraliQB/)
 * [@AntonyMilneQB](https://github.com/AntonyMilneQB/)
+* [@NeroOkwa](https://github.com/NeroOkwa/)
+* [@SajidAlamQB](https://github.com/SajidAlamQB/)
 * [@idanov](https://github.com/idanov/)
 * [@jmholzer](https://github.com/jmholzer/)
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
 * [@merelcht](https://github.com/merelcht/)
-* [@NeroOkwa](https://github.com/NeroOkwa/)
 * [@noklam](https://github.com/noklam/)
-* [@SajidAlamQB](https://github.com/SajidAlamQB/)
 * [@yetudada](https://github.com/yetudada/)
 
