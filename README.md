@@ -13,6 +13,8 @@ Development: https://github.com/quantumblacklabs/kedro
 
 Documentation: https://kedro.readthedocs.io/
 
+Website: https://kedro.org
+
 A Python framework for creating reproducible, maintainable and modular data science code.
 
 Current build status
