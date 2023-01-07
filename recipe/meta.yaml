@@ -52,7 +52,7 @@ test:
 # Disabled pip check because of pip-tools and rope
 # pip requirements.txt is has requirement pip-tools~=6.10, but conda has only pip-tools 6.6.2
 # pip requirements.txt is has requirement rope~=1.5.1, but conda has only rope 1.4.0.
-    - pip check
+#    - pip check
   requires:
     - pip
 
