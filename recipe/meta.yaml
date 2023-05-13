@@ -10,7 +10,7 @@ source:
   sha256: 515e163d47234cf22dc116bdc724ea89dee6e92a5d01189b6b94dcdf38b0d9c2
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -23,11 +23,11 @@ requirements:
   run:
     - anyconfig >=0.10.0,<0.11.0
     - attrs >=21.3
-    - cachetools >=4.1,<5.0
+    - cachetools >=4.1,<6.0
     - click <9.0
     - cookiecutter >=2.1.1,<3.0
     - dynaconf >=3.1.2, <4.0
-    - fsspec >=2021.4,<2022.11.1
+    - fsspec >=2021.4,<2024.1
     - gitpython >=3.0,<4.0
     - importlib_metadata >=3.6
     - importlib_resources >=1.3
