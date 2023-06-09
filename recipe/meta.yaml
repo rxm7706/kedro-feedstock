@@ -1,5 +1,5 @@
 {% set name = "kedro" %}
-{% set version = "0.18.9" %}
+{% set version = "0.18.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kedro-{{ version }}.tar.gz
-  sha256: a2e7f245e889778d6d96e47fdf407a0d8281e2c830ed89bfbc9e4fa06e3d8f80
+  sha256: 226174c02362f1f1fc3ddd24ba22d39feb1e3a89c3ae4fbb8585c324f39a1eeb
 
 build:
   number: 0
