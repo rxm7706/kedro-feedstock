@@ -34,7 +34,7 @@ requirements:
     - importlib-metadata >=3.6,<7.0.0
     - importlib_resources >=1.3,<7.0.0
     - jmespath >=0.9.5,<2.0.0  # 1.0.1
-    - more-itertools >8.14.0,<10.0
+    - more-itertools >=8.14,<11
     - omegaconf >=2.1.1,<3.0.0
     - parse >=1.19.0,<=2.0.0
     - pip-tools >=6.5,<8.0.0
@@ -42,7 +42,7 @@ requirements:
     - python >=3.7,<3.11
     - pyyaml >=4.2,<7.0
     - rich >=12.0,<14.0
-    - rope >=1.4.0,<2.0
+    - rope >=0.21,<2.0
     - setuptools >=38.0,<70.0.0
     - toml >=0.10.0,<1.0.0
     - toposort >=1.5,<2.0
