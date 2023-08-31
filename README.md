@@ -150,11 +150,11 @@ Feedstock Maintainers
 =====================
 
 * [@AhdraMeraliQB](https://github.com/AhdraMeraliQB/)
+* [@DimedS](https://github.com/DimedS/)
 * [@NeroOkwa](https://github.com/NeroOkwa/)
 * [@SajidAlamQB](https://github.com/SajidAlamQB/)
-* [@antonymilne](https://github.com/antonymilne/)
 * [@idanov](https://github.com/idanov/)
-* [@jmholzer](https://github.com/jmholzer/)
+* [@lrcouto](https://github.com/lrcouto/)
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
 * [@merelcht](https://github.com/merelcht/)
 * [@noklam](https://github.com/noklam/)
