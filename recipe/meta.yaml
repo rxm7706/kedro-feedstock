@@ -55,6 +55,8 @@ test:
     - pip check
   requires:
     - pip
+  script_env:
+   - PYTHONWARNINGS="ignore::UserWarning"
 
 about:
   home: https://github.com/quantumblacklabs/kedro
