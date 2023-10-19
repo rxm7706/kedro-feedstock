@@ -1,5 +1,5 @@
 {% set name = "kedro" %}
-{% set version = "0.18.13" %}
+{% set version = "0.18.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,21 +7,23 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kedro-{{ version }}.tar.gz
-  sha256: 89c6684fb6c530300759fc58d93ee55162bbae949c04b5a7fdd234e9cf117149
+  sha256: da219eaf10ed96909195dda53cb33c66a3e017012501d08f0da90ce1879a3364
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - kedro = kedro.framework.cli:main
-  number: 1
+  number: 0
+  script_env:
+   - PYTHONWARNINGS="ignore::UserWarning"
 
 requirements:
   host:
     - pip
-    - python >=3.7,<3.12
+    - python >=3.7
   run:
-    - python >=3.7,<3.12
+    - python >=3.7
     - anyconfig >=0.10.0
     - attrs >=21.3
     - python-build >=0.7.0
@@ -55,8 +57,6 @@ test:
     - pip check
   requires:
     - pip
-  script_env:
-   - PYTHONWARNINGS="ignore::UserWarning"
 
 about:
   home: https://github.com/quantumblacklabs/kedro
