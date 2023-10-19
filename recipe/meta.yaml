@@ -19,9 +19,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.7,<3.12
   run:
-    - python >=3.7
+    - python >=3.7,<3.12
     - anyconfig >=0.10.0
     - attrs >=21.3
     - python-build >=0.7.0
