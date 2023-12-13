@@ -1,5 +1,5 @@
 {% set name = "kedro" %}
-{% set version = "0.18.14" %}
+{% set version = "0.19.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kedro-{{ version }}.tar.gz
-  sha256: da219eaf10ed96909195dda53cb33c66a3e017012501d08f0da90ce1879a3364
+  sha256: 9586be0d02bfb3135801c90585fd54961dfe113ef2400c4bd4dc85bab83d8501
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   entry_points:
     - kedro = kedro.framework.cli:main
   number: 0
@@ -20,11 +20,11 @@ build:
 
 requirements:
   host:
+    - python >=3.8
+    - setuptools >=65.5.1
     - pip
-    - python >=3.7
   run:
-    - python >=3.7
-    - anyconfig >=0.10.0
+    - python >=3.8
     - attrs >=21.3
     - python-build >=0.7.0
     - cachetools >=4.1
@@ -33,19 +33,18 @@ requirements:
     - dynaconf >=3.1.2,<4.0
     - fsspec >=2021.4
     - gitpython >=3.0
-    - importlib_metadata >=3.6,<7.0.0
-    - importlib-metadata >=3.6,<7.0.0
-    - importlib_resources >=1.3,<7.0.0
+    - importlib-metadata >=3.6,<8.0
+    - importlib-resources >=1.3,<7.0
     - jmespath >=0.9.5
+    - kedro-datasets
     - more-itertools >=8.14.0
     - omegaconf >=2.1.1
     - parse >=1.19.0
-    - pip-tools >=6.5
-    - pluggy >=1.0,<1.3 # TODO: Uncap when dropping Python 3.7 support, see https://github.com/kedro-org/kedro/issues/2979
+    - pluggy >=1.0
     - pyyaml >=4.2,<7.0
     - rich >=12.0,<14.0
     - rope >=0.21,<2.0
-    - setuptools >=38.0
+    - setuptools >=65.5.1
     - toml >=0.10.0
     - toposort >=1.5
 
