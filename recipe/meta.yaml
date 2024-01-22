@@ -41,10 +41,10 @@ requirements:
     - omegaconf >=2.1.1
     - parse >=1.19.0
     - pluggy >=1.0
+    - pre-commit-hooks
     - pyyaml >=4.2,<7.0
     - rich >=12.0,<14.0
     - rope >=0.21,<2.0
-    - setuptools >=65.5.1
     - toml >=0.10.0
     - toposort >=1.5
 
