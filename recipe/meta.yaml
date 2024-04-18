@@ -14,7 +14,7 @@ build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   entry_points:
     - kedro = kedro.framework.cli:main
-  number: 0
+  number: 1
   script_env:
     - PYTHONWARNINGS="ignore::UserWarning"
 
