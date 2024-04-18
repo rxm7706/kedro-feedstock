@@ -11,7 +11,7 @@ Summary: A Python library that implements software engineering best-practice for
 
 Development: https://github.com/kedro-org/kedro
 
-Documentation: https://docs.kedro.org
+Documentation: https://kedro.readthedocs.io/
 
 A Python framework for creating reproducible, maintainable and modular data science code.
 
