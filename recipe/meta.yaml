@@ -58,12 +58,12 @@ test:
     - pip
 
 about:
-  home: https://github.com/quantumblacklabs/kedro
+  home: https://github.com/kedro-org/kedro
   summary: A Python library that implements software engineering best-practice for data and ML pipelines.
   license: Apache-2.0
   license_file: LICENSE.md
   doc_url: https://kedro.readthedocs.io/
-  dev_url: https://github.com/quantumblacklabs/kedro
+  dev_url: https://github.com/kedro-org/kedro
   description: A Python framework for creating reproducible, maintainable and modular data science code.
 
 extra:
