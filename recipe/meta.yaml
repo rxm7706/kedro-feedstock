@@ -1,5 +1,5 @@
 {% set name = "kedro" %}
-{% set version = "0.19.6" %}
+{% set version = "0.19.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,16 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kedro-{{ version }}.tar.gz
-  sha256: cd4128fe8a9716ae83cf2f88ce2b76305d66af99a497207e3e4294afd3d96e15
+  sha256: 7c9d1594cdaa18ea8171944c15030bad86ca1de4460f0c46c187eaab82fa15c4
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   entry_points:
     - kedro = kedro.framework.cli:main
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
-  script_env:
-    - PYTHONWARNINGS="ignore::UserWarning"
 
 requirements:
   host:
@@ -33,9 +31,10 @@ requirements:
     - dynaconf >=3.1.2,<4.0
     - fsspec >=2021.4
     - gitpython >=3.0
-    - importlib-metadata >=3.6,<8.0
+    - importlib-metadata >=3.6,<9.0
     - importlib-resources >=1.3,<7.0
     - kedro-datasets  # Only required for tests Now
+    - kedro-telemetry >=0.5.0
     - more-itertools >=8.14.0
     - omegaconf >=2.1.1
     - parse >=1.19.0
@@ -45,20 +44,21 @@ requirements:
     - rich >=12.0,<14.0
     - rope >=0.21,<2.0
     - toml >=0.10.0
+    - typing-extensions >=4.0
     - graphlib-backport >=1.0.0
 
 test:
   imports:
     - kedro
   commands:
-    - kedro --help
     - pip check
+    - kedro --help
   requires:
     - pip
 
 about:
   home: https://github.com/kedro-org/kedro
-  summary: A Python library that implements software engineering best-practice for data and ML pipelines.
+  summary: Kedro helps you build production-ready data and analytics pipelines
   license: Apache-2.0
   license_file: LICENSE.md
   doc_url: https://kedro.readthedocs.io/
