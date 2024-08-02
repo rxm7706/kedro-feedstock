@@ -7,7 +7,7 @@ Home: https://github.com/kedro-org/kedro
 
 Package license: Apache-2.0
 
-Summary: A Python library that implements software engineering best-practice for data and ML pipelines.
+Summary: Kedro helps you build production-ready data and analytics pipelines
 
 Development: https://github.com/kedro-org/kedro
 
@@ -149,9 +149,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@AhdraMeraliQB](https://github.com/AhdraMeraliQB/)
 * [@DimedS](https://github.com/DimedS/)
-* [@NeroOkwa](https://github.com/NeroOkwa/)
+* [@ElenaKhaustova](https://github.com/ElenaKhaustova/)
 * [@SajidAlamQB](https://github.com/SajidAlamQB/)
 * [@idanov](https://github.com/idanov/)
 * [@lrcouto](https://github.com/lrcouto/)
