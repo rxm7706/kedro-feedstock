@@ -3,7 +3,7 @@ schema_version: 1
 
 context:
   name: kedro
-  version: "0.19.13"
+  version: "0.19.14"
 
 package:
   name: ${{ name|lower }}
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/kedro-${{ version }}.tar.gz
-  sha256: f3363e6a566631d24c8af0d5c5d08c9621f41cab1bf4562c52d680010c79b031
+  sha256: 1acae8ed175ac13e5c700cbd23ce40c9452936abdb3c6f546c59af15360797c3
 
 build:
   number: 1
