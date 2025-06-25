@@ -3,11 +3,11 @@ About kedro-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kedro-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/kedro-org/kedro
+Home: https://kedro.org/
 
 Package license: Apache-2.0
 
-Summary: Kedro helps you build production-ready data and analytics pipelines
+Summary: Kedro helps you build production-ready data and analytics pipelines.
 
 Development: https://github.com/kedro-org/kedro
 
