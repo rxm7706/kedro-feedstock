@@ -68,8 +68,6 @@ tests:
         PYTHONWARNINGS: "ignore::UserWarning"
       interpreter: python
       content: |
-        import pathlib
-        kedro --help
         import kedro
 
 about:
