@@ -66,10 +66,12 @@ tests:
       env:
         WARNINGS: "ignore::kedro.KedroPythonVersionWarning"
         PYTHONWARNINGS: "ignore::UserWarning"
-      content:
-        - kedro --help
-        - import kedro
-        - pip check
+      interpreter: python
+      content: |
+        import pathlib
+        kedro --help
+        import kedro
+        pip check
 
 about:
   summary: Kedro helps you build production-ready data and analytics pipelines.
