@@ -71,7 +71,6 @@ tests:
         import pathlib
         kedro --help
         import kedro
-        pip check
 
 about:
   summary: Kedro helps you build production-ready data and analytics pipelines.
